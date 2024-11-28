@@ -1,12 +1,12 @@
 import s from "./Contact.module.css";
 const Contact = ({ contact }) => {
   return (
-    <li className={s.listItem}>
-      <div className={s.itemBox}>
+    <li className={s.list}>
+      <div className={s.box}>
         <p className={s.name}>{contact.name}</p>
         <p className={s.number}>{contact.number}</p>
       </div>
-      <button className={s.button}>Delete</button>
+      <button className={s.btn}>Delete</button>
     </li>
   );
 };
