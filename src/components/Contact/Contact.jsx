@@ -10,8 +10,8 @@ const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
 
   return (
-    <li className={s.box}>
-      <div>
+    <li className={s.list}>
+      <div className={s.box}>
         <p className={s.name}>
           <BsPersonFill className={s.icon} />
           {name}

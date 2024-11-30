@@ -29,6 +29,7 @@ const ContactsForm = () => {
       <Form className={s.form} onSubmit={handleSubmit}>
         <div className={s.inputBox}>
           <input
+            className={s.input}
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -39,6 +40,7 @@ const ContactsForm = () => {
         </div>
         <div className={s.inputBox}>
           <input
+            className={s.input}
             type="tel"
             value={number}
             onChange={(e) => setNumber(e.target.value)}
